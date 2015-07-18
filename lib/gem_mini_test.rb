@@ -11,7 +11,7 @@ module GemMiniTest
       end
     end
     def check_number?(n)
-      if n.to_i.size == 4 && n.to_i%2 == 0 then
+      if n.size == 4 && n%2 == 0 then
         return true
       else
         return false
